@@ -12,6 +12,7 @@ import static org.springframework.web.reactive.function.server.RouterFunctions.r
 import static org.springframework.web.reactive.function.server.ServerResponse.ok;
 
 @SpringBootApplication
+@ComponentScan(basePackages ="com.solution.controller, + "com.solution.mobiquity.ervice")    
 public class Application {
 
     @Bean
