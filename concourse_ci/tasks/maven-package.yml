@@ -19,5 +19,5 @@ run:
     - package
     
 outputs:
-  - name: springboot
+  - name: springboot-out
     path: springboot
