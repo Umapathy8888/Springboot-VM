@@ -2,7 +2,7 @@ FROM openjdk:8-jre-alpine
 
 WORKDIR /helloSpringBoot
 
-EXPOSE 8081
+EXPOSE 8082
 
 COPY target/hello-springboot-0.0.1-SNAPSHOT.jar .
 
